@@ -7,6 +7,10 @@ body {
     color: #ffffff;
 } 
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* HEADER */
 
 .header-container {
@@ -304,5 +308,4 @@ a:hover {
     justify-content: center;
     color: #ffffff;
     background-image: url('../images/bg-01.jpg');
-
 }

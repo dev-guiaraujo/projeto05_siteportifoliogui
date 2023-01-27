@@ -215,7 +215,7 @@ a:hover {
 
 .card {
     width: 33.3%;
-    height: 350px;
+    height: 375px;
     padding-top: 33,3%;
     border-radius: 100%;
     margin: 3rem 0 0 0;
@@ -223,7 +223,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    background-image: url('../images/bg-01.jpg');
+    background-image: url('../images/bg-02.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,7 +265,8 @@ a:hover {
 }
 
 .card h2{
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0;
@@ -276,7 +277,7 @@ a:hover {
     font-size: 0;
     visibility: visible;
     opacity: 0;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
     transition: 2 ease-in-out;
 }
@@ -286,8 +287,8 @@ a:hover {
 }
 
 .card:hover > .card-wrapper::before {
-    height: 275px;
-    width: 275px;
+    height: 320px;
+    width: 320px;
     opacity: 1;
 }
 
